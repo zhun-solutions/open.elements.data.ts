@@ -1,7 +1,7 @@
 {
   "name": "zhun-data-elements",
   "version": "1.0.0",
-  "description": "open elements in java script for schema less data exchange",
+  "description": "open elements in type script for schema less data exchange",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
