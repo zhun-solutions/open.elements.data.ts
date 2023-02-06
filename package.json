@@ -1,8 +1,8 @@
 {
-  "name": "zhun-data-elements",
-  "version": "1.0.6",
+  "name": "open.elements.data.ts",
+  "version": "1.0.0",
   "description": "open elements in type script for schema less data exchange",
-  "main": "zhun-data-elements.ts",
+  "main": "open.elements.data.ts",
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
@@ -18,10 +18,10 @@
     "data",
     "elements"
   ],
-  "author": "zhun solutions",
+  "author": "Zhun Solutions Pvt Ltd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhun-solutions/zhun-data-elements-ts/issues"
+    "url": "https://github.com/zhun-solutions/open.elements.data.ts"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -39,5 +39,5 @@
     "bable-loader": "^0.0.1-security",
     "uuid": "^9.0.0"
   },
-  "homepage": "https://github.com/zhun-solutions/zhun-data-elements-ts#readme"
+  "homepage": "https://github.com/zhun-solutions/open.elements.data.ts#readme"
 }
