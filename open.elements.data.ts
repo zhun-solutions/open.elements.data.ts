@@ -6,5 +6,5 @@ export { componentRel } from './src/open.elements/data/core/elements/item/compon
 export { EmbedRef } from './src/open.elements/data/core/elements/item/embedref';
 export { DomainConstants } from './src/open.elements/data/core/elements/item/domain-constants';
 export { ItemData } from './src/open.elements/data/core/elements/item/item-data';
-export type { pele } from './src/open.elements/data/core/elements/item/pele';
+export * from './src/open.elements/data/core/elements/item/pele';
 export { Item } from './src/open.elements/data/core/elements/item/item'; 
