@@ -1,6 +1,6 @@
 {
   "name": "open.elements.data.ts",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "open elements in type script for schema less data exchange",
   "main": "open.elements.data.ts",
   "scripts": {

@@ -103,6 +103,9 @@ public addAllRelElementRefsOnType(type:string, itms:Map<string,string>){
   this.relationalElementRefs.set(type, itms); 
 }
 public addAllRelElementsOnType(type:string, itms:Map<string,pele>){
+  if(this.relationalElements==undefined){
+    this.relationalElements=new Map<string,Map<string,pele>>();
+  }
   this.relationalElements.set(type, itms); 
 }
 
@@ -124,6 +127,15 @@ public getRelElementsOnType(type:string){
    return  this.relationalElements.get(type);
 }
 
+public getRelElementsOnTypeAsArray(type:string){
+  if(  this.relationalElements==undefined){
+    this.relationalElements=new Map<string,Map<string,pele>>();
+  }
+  if(  this.relationalElements.get(type)==undefined){
+      this.relationalElements.set(type, new Map<string,pele>());
+  }
+   return  Array.from(Array(this.relationalElements.get(type)?.values()));
+}
 
 public getRelElementRefs(){
   if(  this.relationalElementRefs.get(DomainConstants.MD_COMP_DT)==undefined){
